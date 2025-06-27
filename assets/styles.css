@@ -15,7 +15,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 23px; /* 127.778% */
+    line-height: 20px; /* 127.778% */
     display: flex;
     align-items: center;
     gap: 16px;
@@ -29,19 +29,27 @@
     font-style: normal;
     font-weight: 500;
     line-height: 23px; /* 150% */
-    align-self: flex-end;      /* Cambiado a flex-end */
+    align-self:stretch;     /* Cambiado a flex-end */
     gap: 32px;
     display: flex;
-    justify-content: right; /* Cambiado a flex-end */
+    justify-content: flex-end; /* Cambiado a flex-end */
     padding-left: 0;
     list-style: none;
+/* justify-content: right; */
+align-items: flex-end;
+flex: 1 0 0;
+/* align-self: flex-end; */
    
+}
+
+.menu ul {
+    align-items: right;
 }
 
 .menu li {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 12px 40px;    
     
 }
 
