@@ -1,19 +1,17 @@
 .footer-columns {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: auto;
-    margin: 40px 20px 24px 20px;
+    gap: 24px;
     padding: 24px 20px;
-    width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-col {
-    display: flex;
-    flex-direction: row;
-    row-gap: 8px;
+    flex: 1 1 0;
     color: #638763;
     text-align: center;
     font-feature-settings: 'dlig' on;
@@ -22,7 +20,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-
+    min-width: 180px;
+    margin: 0 8px;
 }
 
 
