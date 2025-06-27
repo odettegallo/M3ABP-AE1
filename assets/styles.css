@@ -1,3 +1,13 @@
+.navbar {
+    display: flex;
+    padding: 12px 40px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid #E5E8EB;
+
+}
+
 .title {
     color: #121712;
     font-feature-settings: 'dlig' on;
@@ -19,14 +29,50 @@
     font-style: normal;
     font-weight: 500;
     line-height: 21px; /* 150% */
-    align-self: stretch;
+    align-self: flex-end;      /* Cambiado a flex-end */
     gap: 36px;
-    list-style: none;
     display: flex;
-    
+    justify-content: right; /* Cambiado a flex-end */
+    padding-left: 0;
+    list-style: none;
 }
 
+.menu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.menu a {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.íconos-nav {
+    display: flex;
+    height: 40px;
+    max-width: 480px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    }
+
+.íconos-nav svg {
+    border-radius: 8px;
+    background: #F0F5F0;
+    padding: 10px 10px;         /* espacio interno tipo botón */
+    transition: background 0.2s;
+    cursor: pointer;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
