@@ -7,4 +7,25 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+    margin: 24px 20px 40px 20px;
+
+
+}
+
+.íconos-footer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    margin: 24px 20px 24px 20px;
 }
