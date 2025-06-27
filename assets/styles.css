@@ -1,3 +1,20 @@
+.title {
+    color: #121712;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 127.778% */
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+
 .footer-columns {
     display: flex;
     justify-content: space-between;
