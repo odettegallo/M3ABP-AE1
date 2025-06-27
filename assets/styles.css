@@ -11,6 +11,21 @@
     gap: 16px;
 }
 
+.menu {
+    color: #121712;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 150% */
+    align-self: stretch;
+    gap: 36px;
+    list-style: none;
+    display: flex;
+    
+}
+
 
 
 
