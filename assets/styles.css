@@ -1,4 +1,16 @@
-.pielow {
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+    margin: 0 auto;
+    padding: 24px 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-col {
     color: #638763;
     text-align: center;
     font-feature-settings: 'dlig' on;
@@ -7,11 +19,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
-    align-self: stretch;
-    width: 100%;
-    height: auto;
-    margin: 24px 20px 40px 20px;
-
 
 }
 
@@ -28,4 +35,21 @@
     align-self: stretch;
     flex-wrap: wrap;
     margin: 24px 20px 24px 20px;
+}
+
+.pielow {
+    color: #638763;
+    text-align: center;
+    font-feature-settings: 'dlig' on;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+    margin: 24px 20px 40px 20px;
+
+
 }
